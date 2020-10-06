@@ -1,0 +1,316 @@
+
+
+
+
+
+
+/* ======######========
+backgraound  parts
+==========#####======= */
+
+body{
+    /* background-color: rgb(221, 255, 252); */
+    background-color: #f8f9fa;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-div{
+    width: 75%;
+    width: 75%;
+    margin: 0 auto
+}
+
+
+/* ==============
+ header parts below
+================= */
+
+header{
+    background-color: rgba(255, 255, 255, 0.178);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 3px;
+    margin-top: 2rem;
+    box-shadow: 200px 10px 123px 7px;
+    
+}
+
+.siteheader{
+    padding-top: 10px;
+}
+
+.motto{
+    text-align: center;
+    padding-top: 7%;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+}
+
+.m2{
+    font-size: 1em;
+    padding-top: 0px;
+    letter-spacing: 10px;
+    color: #aaaaaa;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+/* ==============
+nav parts below
+================= */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 3% 0;
+    text-align: center;
+    font-size: 1.75rem;
+
+}
+
+.nav-btn{
+width: 45%;
+padding-top: 2.5%;
+padding-bottom: 2.5%;
+background-color: rgb(140, 228, 58);
+border-radius: 3px;
+
+}
+
+nav a{
+    color: rgb(109, 109, 109);
+}
+
+nav a:hover,.nav-btn:hover{
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(158, 55, 55);
+}
+
+.green{
+    background-color: rgb(187, 187, 187);
+}
+
+
+
+/* ======#####========
+body parts below
+=========#####======== */
+
+
+
+
+/* ===========
+backgraoun fixed
+============= */
+
+
+
+.backimg{
+    background-image: url(http://localhost:8001/1.jpg);
+    height: 300rem;
+    max-height: 400px;
+    margin: 3% auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/* ===============
+about 3 item bootstrap below
+================== */
+
+.about{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.boot1{
+    width: 45%;
+    background-color: rgba(224, 224, 224, 0.733)  ;
+    border-radius: 3px;
+    text-align: right;
+    
+}
+
+.boot-padd{
+    padding: 1rem;
+}
+
+.about p {
+    margin: 1px;
+}
+
+/* =============
+embeded map iframe
+================ */
+.map-iframe{
+width: 45%;
+}
+
+.map-iframe iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* =============
+2nd section
+bootstrap carousel
+================ */
+
+
+
+.boot-carou{
+    width: 100%;
+    max-height: 400px;
+    background-color: rgb(128, 128, 128)(66, 66, 66);
+    margin-top: 2.5%;
+}
+
+.boot-carou img{
+    max-height: 100%;
+    height: 300px;
+}
+
+.boot-carou-navcolor{
+    background-color: rgba(167, 167, 167, 0.774);
+}
+
+.wide{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(http://localhost:8001/bim.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* flex-direction: row-reverse; */
+}
+.cars{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.wide img{
+    padding-top: 5%;
+    max-width: 100px;
+    align-self: center;
+    height: 100px;
+    max-width:100px;
+}
+
+.f1{
+    width: 50%;
+}
+
+.up{
+    /* width: 25%; */
+    margin-bottom: 3%;
+    /* margin-left: 8%; */
+} 
+
+.capt{
+    text-align: right;
+    /* background-image: url(http://localhost:8001/bim.jpg);
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+    color: rgb(0, 0, 0);
+    font-size: larger;
+    background-color: #aaaaaa85;
+}
+
+.card-body{
+    text-align: right;
+    direction: rtl;
+}
+
+
+
+
+
+.form-control{
+    text-align: right;
+}
+.contact-form{
+    margin-top: 2%;
+    text-align: center;
+}
+
+
+
+.formwrapper{
+    text-align: right;
+    width: 50%;
+    margin: 3.5% auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 2.5%;
+    margin-bottom: 4.5%;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    padding-top: 2rem;
+    text-align: center;
+    line-height: 5px;
+    justify-content: space-around;
+
+}
+
+.find-us{
+    line-height: 10px;
+}
+
+.social-media{
+    letter-spacing: 10px;
+    line-height: 10px;
+}
+
+.contact-info{
+    line-height: 4px;
+    letter-spacing: 4px;
+}
+
+.ins{
+    max-height: 20px;
+}
+.tel{
+    max-width: 20px;
+}
+
+
+/* this is fixed user panel (not active) */
+.vex{
+    position: fixed;
+    top: 30%;
+    width: 5%;
+    height: 40%;
+    background-color: rgb(140, 228, 58);
+}
+
